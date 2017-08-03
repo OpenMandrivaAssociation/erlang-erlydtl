@@ -6,7 +6,7 @@
 
 Name:           erlang-%{short_name}
 Version:        0.7.0
-Release:        %mkrel 5.20130214git%{git_short_hash}.2
+Release:        5.20130214git%{git_short_hash}.2
 Summary:        Erlang implementation of the Django Template Language
 Group:          Development/Java
 License:        MIT
