@@ -18,6 +18,7 @@ URL:            https://github.com/%{github_username}/%{short_name}
 Source0:        %{github_username}-%{short_name}-%{git_short_hash}.tar.gz
 Patch1:         erlang-erlydtl-0001-Remove-support-for-parametrized-modules.patch
 Provides:       ErlyDTL = %{version}-%{release}
+BuildRequires:	make
 BuildRequires:  erlang-rebar
 Requires:       erlang-compiler%{?_isa}
 Requires:       erlang-erts%{?_isa}
